@@ -1,78 +1,75 @@
 // Define the content for each section
 const sidebarContent = {
-    java: [
-        { id: 'java1', text: 'JAVA1', contentTitle: 'Java Topic 1', contentDescription: 'This is the content for Java Topic 1.' },
-        { id: 'java2', text: 'JAVA2', contentTitle: 'Java Topic 2', contentDescription: 'This is the content for Java Topic 2.' },
-        { id: 'java3', text: 'JAVA3', contentTitle: 'Java Topic 3', contentDescription: 'This is the content for Java Topic 3.' }
-    ],
-    git: [
-        { id: 'git1', text: 'Git and GitHub1', contentTitle: 'Git and GitHub Topic 1', contentDescription: 'This is the content for Git and GitHub Topic 1.' },
-        { id: 'git2', text: 'Git and GitHub2', contentTitle: 'Git and GitHub Topic 2', contentDescription: 'This is the content for Git and GitHub Topic 2.' },
-        { id: 'git3', text: 'Git and GitHub3', contentTitle: 'Git and GitHub Topic 3', contentDescription: 'This is the content for Git and GitHub Topic 3.' }
-    ],
-    aws: [
-        { id: 'aws1', text: 'AWS1', contentTitle: 'AWS Topic 1', contentDescription: 'This is the content for AWS Topic 1.' },
-        { id: 'aws2', text: 'AWS2', contentTitle: 'AWS Topic 2', contentDescription: 'This is the content for AWS Topic 2.' },
-        { id: 'aws3', text: 'AWS3', contentTitle: 'AWS Topic 3', contentDescription: 'This is the content for AWS Topic 3.' }
-    ],
     linux: [
-        {id: 'linux1', text: 'linux1', contentTitle: 'Linux Topic 1', contentDescription: 'This is the content for LINUX Topic 1.'},
-        {id: 'linux2', text: 'linux2', contentTitle: 'Linux Topic 2', contentDescription: 'This is the content for LINUX Topic 2.'},
-        {id: 'linux3', text: 'linux3', contentTitle: 'Linux Topic 3', contentDescription: 'This is the content for LINUX Topic 3.'}
+        { id: 'linux1', text: 'DAY-1', contentTitle: ' ', contentFile: '/pages/linux/linux1.html' },
+        { id: 'linux2', text: 'DAY-2', contentTitle: '', contentFile: '/pages/linux/linux2.html' },
+        { id: 'linux3', text: 'DAY-3', contentTitle: '', contentFile: '/pages/linux/linux3.html' },
+        { id: 'linux4', text: 'DAY-4', contentTitle: ' ', contentFile: '/pages/linux/linux4.html' },
+        { id: 'linux5', text: 'DAY-5', contentTitle: '', contentFile: '/pages/linux/linux5.html' },
     ],
     shellscript: [
-        {id: 'shellscript1', text: 'shellscript1', contentTitle: 'shellscript Topic 1', contentDescription: 'This is the content for shellscript Topic 1.'},
-        {id: 'shellscript2', text: 'shellscript2', contentTitle: 'shellscript Topic 2', contentDescription: 'This is the content for shellscript Topic 2.'},
-        {id: 'shellscript3', text: 'shellscript3', contentTitle: 'shellscript Topic 3', contentDescription: 'This is the content for shellscript Topic 3.'}
+        { id: 'shellscript1', text: 'DAY-1', contentTitle: '', contentFile: '/pages/shellscript/ss1.html' },
+        { id: 'shellscript2', text: 'DAY-2', contentTitle: '', contentFile: '/pages/shellscript/ss2.html' },
+        { id: 'shellscript3', text: 'DAY-3', contentTitle: '', contentFile: '/pages/shellscript/ss3.html' }
+    ],
+
+    git: [
+        { id: 'git1', text: 'DAY-1', contentTitle: '', contentFile: 'git1.html' },
+        { id: 'git2', text: 'DAY-2', contentTitle: '', contentFile: 'git2.html' },
+        { id: 'git3', text: 'DAY-3', contentTitle: '', contentFile: 'git3.html' }
+    ],
+    aws: [
+        { id: 'aws1', text: 'AWS1', contentTitle: 'AWS Topic 1', contentFile: 'aws1.html' },
+        { id: 'aws2', text: 'AWS2', contentTitle: 'AWS Topic 2', contentFile: 'aws2.html' },
+        { id: 'aws3', text: 'AWS3', contentTitle: 'AWS Topic 3', contentFile: 'aws3.html' }
     ],
     tomcat: [
-        {id: 'tomcat1', text: 'tomcat1', contentTitle: 'tomcat Topic 1', contentDescription: 'This is the content for tomcat Topic 1.'},
-        {id: 'tomcat2', text: 'tomcat2', contentTitle: 'tomcat Topic 2', contentDescription: 'This is the content for tomcat Topic 2.'},
-        {id: 'tomcat3', text: 'tomcat3', contentTitle: 'tomcat Topic 3', contentDescription: 'This is the content for tomcat Topic 3.'}
+        { id: 'tomcat1', text: 'Tomcat1', contentTitle: 'Tomcat Topic 1', contentFile: 'tomcat1.html' },
+        { id: 'tomcat2', text: 'Tomcat2', contentTitle: 'Tomcat Topic 2', contentFile: 'tomcat2.html' },
+        { id: 'tomcat3', text: 'Tomcat3', contentTitle: 'Tomcat Topic 3', contentFile: 'tomcat3.html' }
     ],
     sonarqube: [
-        {id: 'sonarqube1', text: 'sonarqube1', contentTitle: 'sonarqube Topic 1', contentDescription: 'This is the content for sonarqube Topic 1.'},
-        {id: 'sonarqube2', text: 'sonarqube2', contentTitle: 'sonarqube Topic 2', contentDescription: 'This is the content for sonarqube Topic 2.'},
-        {id: 'sonarqube3', text: 'sonarqube3', contentTitle: 'sonarqube Topic 3', contentDescription: 'This is the content for sonarqube Topic 3.'}
+        { id: 'sonarqube1', text: 'SonarQube1', contentTitle: 'SonarQube Topic 1', contentFile: 'sonarqube1.html' },
+        { id: 'sonarqube2', text: 'SonarQube2', contentTitle: 'SonarQube Topic 2', contentFile: 'sonarqube2.html' },
+        { id: 'sonarqube3', text: 'SonarQube3', contentTitle: 'SonarQube Topic 3', contentFile: 'sonarqube3.html' }
     ],
     maven: [
-        {id: 'maven1', text: 'maven1', contentTitle: 'maven Topic 1', contentDescription: 'This is the content for maven Topic 1.'},
-        {id: 'maven2', text: 'maven2', contentTitle: 'maven Topic 2', contentDescription: 'This is the content for maven Topic 2.'},
-        {id: 'maven3', text: 'maven3', contentTitle: 'maven Topic 3', contentDescription: 'This is the content for maven Topic 3.'}
+        { id: 'maven1', text: 'Maven1', contentTitle: 'Maven Topic 1', contentFile: 'maven1.html' },
+        { id: 'maven2', text: 'Maven2', contentTitle: 'Maven Topic 2', contentFile: 'maven2.html' },
+        { id: 'maven3', text: 'Maven3', contentTitle: 'Maven Topic 3', contentFile: 'maven3.html' }
     ],
     nexus: [
-        {id: 'nexus1', text: 'nexus1', contentTitle: 'nexus Topic 1', contentDescription: 'This is the content for nexus Topic 1.'},
-        {id: 'nexus2', text: 'nexus2', contentTitle: 'nexus Topic 2', contentDescription: 'This is the content for nexus Topic 2.'},
-        {id: 'nexus3', text: 'nexus3', contentTitle: 'nexus Topic 3', contentDescription: 'This is the content for nexus Topic 3.'}
+        { id: 'nexus1', text: 'Nexus1', contentTitle: 'Nexus Topic 1', contentFile: 'nexus1.html' },
+        { id: 'nexus2', text: 'Nexus2', contentTitle: 'Nexus Topic 2', contentFile: 'nexus2.html' },
+        { id: 'nexus3', text: 'Nexus3', contentTitle: 'Nexus Topic 3', contentFile: 'nexus3.html' }
     ],
     ansible: [
-        {id: 'ansible1', text: 'ansible1', contentTitle: 'ansible Topic 1', contentDescription: 'This is the content for ansible Topic 1.'},
-        {id: 'ansible2', text: 'ansible2', contentTitle: 'ansible Topic 2', contentDescription: 'This is the content for ansible Topic 2.'},
-        {id: 'ansible3', text: 'ansible3', contentTitle: 'ansible Topic 3', contentDescription: 'This is the content for ansible Topic 3.'}
+        { id: 'ansible1', text: 'Ansible1', contentTitle: 'Ansible Topic 1', contentFile: 'ansible1.html' },
+        { id: 'ansible2', text: 'Ansible2', contentTitle: 'Ansible Topic 2', contentFile: 'ansible2.html' },
+        { id: 'ansible3', text: 'Ansible3', contentTitle: 'Ansible Topic 3', contentFile: 'ansible3.html' }
     ],
     terraform: [
-        {id: 'terraform1', text: 'terraform1', contentTitle: 'terraform Topic 1', contentDescription: 'This is the content for terraform Topic 1.'},
-        {id: 'terraform2', text: 'terraform2', contentTitle: 'terraform Topic 2', contentDescription: 'This is the content for terraform Topic 2.'},
-        {id: 'terraform3', text: 'terraform3', contentTitle: 'terraform Topic 3', contentDescription: 'This is the content for terraform Topic 3.'}
-    ],
-    docker: [
-        {id: 'docker1', text: 'docker1', contentTitle: 'docker Topic 1', contentDescription: 'This is the content for docker Topic 1.'},
-        {id: 'docker2', text: 'docker2', contentTitle: 'docker Topic 2', contentDescription: 'This is the content for docker Topic 2.'},
-        {id: 'docker3', text: 'docker3', contentTitle: 'docker Topic 3', contentDescription: 'This is the content for docker Topic 3.'}
-    ],
-    k8s: [
-        {id: 'k8s1', text: 'k8s1', contentTitle: 'k8s Topic 1', contentDescription: 'This is the content for k8s Topic 1.'},
-        {id: 'k8s2', text: 'k8s2', contentTitle: 'k8s Topic 2', contentDescription: 'This is the content for k8s Topic 2.'},
-        {id: 'k8s3', text: 'k8s3', contentTitle: 'k8s Topic 3', contentDescription: 'This is the content for k8s Topic 3.'}
+        { id: 'terraform1', text: 'Terraform1', contentTitle: 'Terraform Topic 1', contentFile: 'terraform1.html' },
+        { id: 'terraform2', text: 'Terraform2', contentTitle: 'Terraform Topic 2', contentFile: 'terraform2.html' },
+        { id: 'terraform3', text: 'Terraform3', contentTitle: 'Terraform Topic 3', contentFile: 'terraform3.html' }
     ],
     jenkins: [
-        {id: 'jenkins1', text: 'jenkins1', contentTitle: 'jenkins Topic 1', contentDescription: 'This is the content for jenkins Topic 1.'},
-        {id: 'jenkins2', text: 'jenkins2', contentTitle: 'jenkins Topic 2', contentDescription: 'This is the content for jenkins Topic 2.'},
-        {id: 'jenkins3', text: 'jenkins3', contentTitle: 'jenkins Topic 3', contentDescription: 'This is the content for jenkins Topic 3.'}
-    ]
-
-
-
+        { id: 'jenkins1', text: 'Jenkins1', contentTitle: 'Jenkins Topic 1', contentFile: 'jenkins1.html' },
+        { id: 'jenkins2', text: 'Jenkins2', contentTitle: 'Jenkins Topic 2', contentFile: 'jenkins2.html' },
+        { id: 'jenkins3', text: 'Jenkins3', contentTitle: 'Jenkins Topic 3', contentFile: 'jenkins3.html' }
+    ],
+    docker: [
+        { id: 'docker1', text: 'Docker1', contentTitle: 'Docker Topic 1', contentFile: 'docker1.html' },
+        { id: 'docker2', text: 'Docker2', contentTitle: 'Docker Topic 2', contentFile: 'docker2.html' },
+        { id: 'docker3', text: 'Docker3', contentTitle: 'Docker Topic 3', contentFile: 'docker3.html' }
+    ],
+    k8s: [
+        { id: 'k8s1', text: 'K8s1', contentTitle: 'Kubernetes Topic 1', contentFile: 'k8s1.html' },
+        { id: 'k8s2', text: 'K8s2', contentTitle: 'Kubernetes Topic 2', contentFile: 'k8s2.html' },
+        { id: 'k8s3', text: 'K8s3', contentTitle: 'Kubernetes Topic 3', contentFile: 'k8s3.html' }
+    ],
+ 
+    // Add more topics here...
 };
 
 // Function to change the sidebar items
@@ -83,27 +80,43 @@ function changeSidebar(menu) {
     const items = sidebarContent[menu];
     items.forEach(item => {
         const li = document.createElement('li');
-        li.innerHTML = `<a href="#" onclick="changeContent('${item.id}')">${item.text}</a>`;
+        li.innerHTML = `<a href="#" onclick="changeContent('${menu}', '${item.id}')">${item.text}</a>`;
         sidebarList.appendChild(li);
     });
 }
 
 // Function to change the main content based on the sidebar item clicked
-function changeContent(itemId) {
-    const allItems = [...sidebarContent.java, ...sidebarContent.git, ...sidebarContent.aws, 
-                      ...sidebarContent.linux, ...sidebarContent.shellscript,...sidebarContent.tomcat,
-                        ...sidebarContent.sonarqube,...sidebarContent.maven,...sidebarContent.nexus,
-                       ...sidebarContent.ansible,...sidebarContent.terraform,...sidebarContent.docker,
-                       ...sidebarContent.k8s,...sidebarContent.jenkins];
-    const item = allItems.find(i => i.id === itemId);
+function changeContent(section, itemId) {
+    const contentTitleElement = document.getElementById('content-title');
+    const contentDescriptionElement = document.getElementById('content-description');
+    
+    // Clear existing content
+    contentTitleElement.textContent = '';
+    contentDescriptionElement.innerHTML = '';
 
+    const item = sidebarContent[section].find(i => i.id === itemId);
     if (item) {
-        document.getElementById('content-title').textContent = item.contentTitle;
-        document.getElementById('content-description').textContent = item.contentDescription;
+        // Append content title
+        const titleNode = document.createElement('h2');
+        titleNode.textContent = item.contentTitle;
+        contentTitleElement.appendChild(titleNode);
+
+        // Fetch and append content description
+        fetchContent(item.contentFile)
+            .then(data => {
+                contentDescriptionElement.innerHTML = data;
+            })
+            .catch(error => console.error('Error fetching content:', error));
     }
 }
 
-// Initialize with Java sidebar by default
+// Fetch content from file
+function fetchContent(contentFile) {
+    return fetch(contentFile)
+        .then(response => response.text());
+}
+
+// Initialize with linux sidebar by default
 document.addEventListener('DOMContentLoaded', () => {
-    changeSidebar('java');
+    changeSidebar('linux');
 });
