@@ -1,7 +1,7 @@
 // Define the content for each section
 const sidebarContent = {
     linux: [
-        { id: 'linux1', text: 'DAY-1', contentTitle: ' ', contentFile: '../pages/linux/linux1.html' },
+        { id: 'linux1', text: 'DAY-1', contentTitle: ' ', contentFile: '/pages/linux/linux1.html' },
         { id: 'linux2', text: 'DAY-2', contentTitle: '', contentFile: '/pages/linux/linux2.html' },
         { id: 'linux3', text: 'DAY-3', contentTitle: '', contentFile: '/pages/linux/linux3.html' },
     ],
