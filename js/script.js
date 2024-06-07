@@ -10,17 +10,15 @@ const sidebarContent = {
         { id: 'shellscript2', text: 'DAY-2', contentTitle: '', contentFile: '/pages/shellscript/ss2.html' },
         { id: 'shellscript3', text: 'DAY-3', contentTitle: '', contentFile: '/pages/shellscript/ss3.html' }
     ],
-    git: [
-        { id: 'git1', text: 'DAY-1', contentTitle: '', contentFile: '/pages/git/git1.html' },
-        { id: 'git2', text: 'DAY-2', contentTitle: '', contentFile: '/pages/git/git2.html' },
-        { id: 'git3', text: 'DAY-3', contentTitle: '', contentFile: '/pages/git/git3.html' }
-    ],
     python: [
         { id: 'python1', text: 'DAY-1', contentTitle: '', contentFile: '/pages/git/python1.html' },
         { id: 'python2', text: 'DAY-2', contentTitle: '', contentFile: '/pages/git/python2.html' },
         { id: 'python3', text: 'DAY-3', contentTitle: '', contentFile: '/pages/git/python3.html' }
     ],
-
+    git: [
+        { id: 'git1', text: 'DAY-1', contentTitle: '', contentFile: '/pages/git/git1.html' },
+        { id: 'git2', text: 'DAY-2', contentTitle: '', contentFile: '/pages/git/git2.html' },
+    ],
     aws: [
         { id: 'aws1', text: 'AWS1', contentTitle: 'AWS Topic 1', contentFile: 'aws1.html' },
         { id: 'aws2', text: 'AWS2', contentTitle: 'AWS Topic 2', contentFile: 'aws2.html' },
